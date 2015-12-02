@@ -22,3 +22,4 @@ It can be seen that this sequence (starting at 13 and finishing at 1) contains 1
 
 ## Source
 - [Project Euler](https://projecteuler.net/) - [Problem 14](https://projecteuler.net/problem=14)
+<a href='https://learn.co/lessons/project-euler-collatz' data-visibility='hidden'>View this lesson on Learn.co</a>
