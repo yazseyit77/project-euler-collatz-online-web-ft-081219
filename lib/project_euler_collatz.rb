@@ -8,9 +8,9 @@ end
 
 def next_value(n)
   if n.even?
-    even_next
+    even_next(n)
   else
-    odd_next
+    odd_next(n)
   end
 end
 
