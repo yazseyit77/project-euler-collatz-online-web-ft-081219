@@ -16,7 +16,7 @@ end
 
 def collatz(n)
   sequence = [n]
-  while !n == 1
+  while n != 1
     n = next_value(n)
     sequence.push(n)
   end
