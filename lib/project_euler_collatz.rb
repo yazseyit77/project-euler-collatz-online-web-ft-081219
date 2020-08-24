@@ -15,6 +15,12 @@ def next_value(n)
 end
 
 def collatz(n)
+  sequence = [n]
+  while !n == 1
+    n = next_value(n)
+    sequence.push(n)
+  end
+  sequence
 end
 
 def longest_collatz
