@@ -3,6 +3,7 @@ def even_next(n)
 end
 
 def odd_next(n)
+  3 * n + 1
 end
 
 def next_value(n)
