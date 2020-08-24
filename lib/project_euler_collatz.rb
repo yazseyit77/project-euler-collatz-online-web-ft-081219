@@ -28,6 +28,10 @@ def longest_collatz
   result = nil
 
   (800000..1000000).each do |n|
-
+    if(collatz(n).length > longest)
+      longest = collatz(n).length
+      result = n
+    end
   end
+  result
 end
