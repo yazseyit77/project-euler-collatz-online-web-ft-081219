@@ -24,4 +24,10 @@ def collatz(n)
 end
 
 def longest_collatz
+  longest = 0
+  result = nil
+
+  (800000..1000000).each do |n|
+
+  end
 end
